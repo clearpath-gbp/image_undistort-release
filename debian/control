@@ -1,0 +1,12 @@
+Source: ros-melodic-image-undistort
+Section: misc
+Priority: optional
+Maintainer: Zachary Taylor <ztaylor@ethz.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-image-undistort
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cmake-modules, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-tf-conversions
+Description: Simple image undistorter
